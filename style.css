@@ -1,0 +1,338 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Lora', serif;
+    color:#E8E8E8;
+}
+
+body{
+    background-color: #FEFBF3;
+}
+div.load{
+
+color:white;
+background-position: center;
+background-repeat: no-repeat;
+background-size: conatin;
+width:40px;
+font-size: 40px;
+height:40px;
+font-weight: bold;
+border-radius: 50%;
+
+
+}
+
+.anima{
+    animation-name:load;
+    animation-iteration-count:infinite;
+    animation-duration: 4s;
+}
+@keyframes load {
+    0%{
+        background-image: url("shutter-svgrepo-com.svg");
+        box-shadow:1px 1px 10px rgb(255, 0, 0);
+    }
+    25%{
+        background-image: url("svg2.svg");
+        box-shadow:1px 1px 10px rgb(191, 255, 0)
+    }
+    50%{
+        background-image: url("shutter-svgrepo-com.svg");
+
+        box-shadow:1px 1px 10px rgb(0, 255, 72)
+    }
+    75%{
+        background-image: url("svg2.svg");
+        box-shadow:1px 1px 10px rgb(43, 0, 255)
+    }
+    100%{
+        background-image: url("shutter-svgrepo-com.svg");
+        box-shadow:1px 1px 10px rgb(255, 0, 174)
+    }
+}
+
+.banner-item1{
+    border:1px solid black;
+   background-image:linear-gradient(110deg,rgba(21, 21, 21, 0.255) 0%,rgba(23, 21, 21, 0.087) 100%), url("https://ik.imagekit.io/mitraphoto/New_folder_Butterfly/Background/IMG_20210717_175714_QnUYMNtNd_.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1661674839348");
+   height:100vh;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition:all 1s ease-in-out;
+}
+.banner-item1_anima{
+ background-position: left;
+
+}
+
+.nav1{
+    background-color: #FEFBF3;
+}
+.nav1 img{
+    width:50px;
+    height:50px;
+}
+.nav1 a{
+    color:#888888
+}
+.center_content p:nth-child(1),.gallery_center_content p:nth-child(1){
+    color:#FDFAF6;
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight:500;
+
+}
+.gallery_center_content p:nth-child(1){
+    color:#495464;
+}
+.spacer{
+    height:30vh;
+}
+.banner-bg{
+    background-color:#FEFBF3;
+}
+.banner-2{
+    background-image: url("https://ik.imagekit.io/mitraphoto/Mitra_Photography__3__cpcbnb3Ni.png?ik-sdk-version=javascript-1.4.3&updatedAt=1664357917895");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:90%;
+}
+.banner-3{
+    background-image: linear-gradient(110deg,#fefbf3b7 0%,rgba(254, 251, 243, 0.691) 100%),url("https://ik.imagekit.io/mitraphoto/New_folder_Butterfly/Untitled_design__2__cIfPgT87C.png?ik-sdk-version=javascript-1.4.3&updatedAt=1664449051839");
+    background-position:left;
+    background-size: cover;
+    color:#495464;
+}
+.banner-content p{
+    color:#888888;
+    font-size: 40px;
+}
+.banner-content p button{
+    margin:10px 0px;
+    padding:10px;
+    font-size:24px;
+     letter-spacing: 4px;
+    color:#000000;
+    border: 1px solid #888888;
+    background-color: #888888;
+    border-radius: 14px;
+    transition-duration: 500ms;
+}
+.banner-content p button:hover{
+    background-color:#000000;
+   color: #888888;
+    border-radius: 14px;
+}
+.center_content p:nth-child(2),.gallery_center_content p:nth-child(2){
+    font-size: 20px;
+    text-transform:capitalize;
+    color:#FDFAF6;
+    letter-spacing: 2px;
+    transform: translate(0,-10px);
+    font-weight:400;
+
+}
+
+.center_content button,.gallery_center_content button{
+    background-color: transparent;
+    color:#FDFAF6;
+    padding:10px;
+    border:1px solid #FDFAF6;
+
+}
+/* #animate_butterfly{
+    height:100vh;
+} */
+/* .gallery_section{
+    height:100vh;
+} */
+.gallery_ul{
+    margin-top:10%;
+}
+ul li{
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 7px;
+}
+.co{
+    color:black
+}
+/* .parent1{
+    position: relative;
+}
+.hover{
+    display: flex;
+    background:linear-gradient(110deg,rgba(114, 114, 114, 0.412) 0%,rgba(90, 90, 90, 0.458) 0%);
+    width:90%;
+    height:90%;
+position: absolute;
+padding:30px;
+top:0%;
+left:5%;
+justify-content: space-between;
+
+}
+.hover svg{
+    color:rgb(255, 255, 255)
+} */
+.hovering{
+    opacity:0.8
+}
+.gallery_banner h1{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 48px;
+    font-weight:400;
+    letter-spacing: 7px;
+    color:rgb(255, 255, 255);
+    border:2px solid rgb(255, 255, 255);
+    transition-duration: .5s;
+    padding: 5px;
+}
+.about_section{
+    margin:150px 20px;
+    background:linear-gradient(110deg,#fefbf375 0%,#fefbf365 100%),url("https://ik.imagekit.io/mitraphoto/Mitra_Photography__3__cpcbnb3Ni.png?ik-sdk-version=javascript-1.4.3&updatedAt=1664357917895");
+    background-position: left;
+    background-size: cover;
+    padding: 20px;
+    
+}
+.shop-banner-section{
+    /* height:40vh; */
+    padding:30px;
+background:linear-gradient(110deg,#495464 0%,#495464d1 100%);}
+.shop-banner-section img{
+    height:50vh;
+}
+.gallery_banner h1:hover{
+   
+    letter-spacing: 7px;
+    color:rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border:2px solid rgb(0, 0, 0);
+}
+.about_sectio_1{
+    text-align: left;
+    background-position:center;
+   }
+.about_sectio_1 h4{
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 29px;
+    word-spacing: 10px;
+    color:#495464;
+    
+}
+.about_sectio_2{
+    text-align:center;
+}
+.about_sectio_2 img{
+width:80%;
+height:80%;
+border-radius: 10px;
+}
+.collage_1{
+    background-image: linear-gradient(110deg,rgba(0, 0, 0, 0.265) 0%,rgba(0, 0, 0, 0.71) 100%),url("https://ik.imagekit.io/mitraphoto/New_folder_Butterfly/collage1_f0is5lPbc.png?ik-sdk-version=javascript-1.4.3&updatedAt=1661849538810");
+    background-position: left;  
+    background-size: 200% 100%;
+    
+}
+.collage_2{
+    background-image: linear-gradient(110deg,rgba(0, 0, 0, 0.265) 0%,rgba(0, 0, 0, 0.71) 100%),url("https://ik.imagekit.io/mitraphoto/New_folder_Butterfly/colage2_h7Nx4EAj9.png?ik-sdk-version=javascript-1.4.3&updatedAt=1661849539055");
+    background-position: right;
+}
+.collage_3{
+    background-image: linear-gradient(110deg,rgba(0, 0, 0, 0.265) 0%,rgba(0, 0, 0, 0.71) 100%),url("https://ik.imagekit.io/mitraphoto/New_folder_Butterfly/collage3_MFUvYqHPq.png?ik-sdk-version=javascript-1.4.3&updatedAt=1661849538594");
+    background-position: left;
+}
+.collage_animation_1{
+    animation-name: collage_animation1;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+.collage_animation_1_stop{
+    animation-play-state: paused;
+}
+.collage_animation_2{
+    animation-name: collage_animation2;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+.wrapper_1{
+
+    position: relative;
+}
+.wrapper_2{
+
+    position:absolute;
+    background: linear-gradient(110deg,rgba(0, 0rgba(0, 0, 0, 0.503)0.278) 0%,black 100%);
+    backdrop-filter: blur(2px);
+    top:0%;
+    left:0%;
+}
+.contact_section{
+    margin-top: 30px;
+    background-image:url("https://ik.imagekit.io/mitraphoto/New_folder_Butterfly/Untitled_design__4__2qg7upJzo.png?ik-sdk-version=javascript-1.4.3&updatedAt=1664450137184") ;
+    background-position: center;
+    background-size: cover;
+}
+.contact-1 div{
+    margin:10px;
+    font-size:16px;
+}
+.contact-1 svg{
+    width:20px;
+    height:20px;
+}
+
+@keyframes collage_animation1 {
+    0%{
+        background-position: left;
+    }
+    100%{
+        background-position: right;
+    }
+}
+@keyframes collage_animation2 {
+    0%{
+        background-position: right;
+    }
+    100%{
+        background-position: left;
+    }
+}
+@media (max-width:768px) {
+
+    .center_content p:nth-child(1){
+    color:#FDFAF6;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight:200;
+
+}
+.center_content p:nth-child(2){
+    font-size: 20px;
+    text-transform:capitalize;
+    color:#FDFAF6;
+    letter-spacing: 2px;
+    transform: translate(0,-10px);
+    font-weight:400;
+
+}
+.center_content button{
+    background-color: transparent;
+    color:#FDFAF6;
+    padding:10px;
+    border:1px solid #FDFAF6;
+
+}
+.banner-2{
+    display: none;
+}
+}
